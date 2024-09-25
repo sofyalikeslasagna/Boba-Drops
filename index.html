@@ -3,17 +3,16 @@
   <style>
     h1 {
       text-align: center;
-      background: url('hq');
+      background: url("hq720.jpg");
       background-size: cover;
     }
     body {
-      background-color: #af986f;
       font-family: Bookman, URW Bookman L, serif;
     }
     img {
-      width: 5000px; 
+      width: 1030px; 
       height: 500px
-    }
+}
     h2{
       text-align: center;
     }
@@ -26,6 +25,80 @@
     <h2>I love skibidi toilet</h2>
     <p>BY SOFYA ANDREEVA :3</p>
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Skibidi_toilet_screenshot.webp/220px-Skibidi_toilet_screenshot.webp.png" />
+    <h3>FUN FACTS ABOUT SKIBIDI TOILET</h3>
+    <ul>
+      <li>The first episode of the Skibidi Toilet series was released on February 7th, 2023</li>
+      <li>Initially, the series attempted to create a scary ending with heads hanging out of the toilet, but this concept was later abandoned.</li>
+      <li>People transform into toilets due to a viral song</li>
+      <li>The Skibidi Scientist is the main villain and considered the smartest character in the series</li>
+      <li>Toilets explode when thrown or damaged</li>
+      <li>Viewers need about an hour to watch the entire series</li>
+      <li>Skibidi Toilet generates over $500,000 monthly for its creator</li>
+    </ul>
   </body>
 
 </html>
+<head>
+  <style> 
+  img{
+    position: relative;
+    animation: mymove 0.07s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  } 
+  #body {animation-timing-function: linear;}
+  h1{
+    position: relative;
+    animation: mymove 0.2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  h2{
+    position: relative;
+    animation: mymove 0.12s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  }
+  p{
+    position: relative;
+    animation: mymove 0.9s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  h3{
+    position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  ul{
+    position: relative;
+    animation: mymove 1.05s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 20px;}
+  }
+  body {
+    background-color: #cbb889;
+    animation-name: skibidi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+  @keyframes skibidi {
+    0%   {background-color: #cbb889;}
+    25%  {background-color: #a88c46;}
+    50%  {background-color: #8a8066;}
+    100% {background-color: #b09d6d;}
+}
+  </style>
+  </head>
